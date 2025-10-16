@@ -179,6 +179,7 @@ export default function EditProfilePage() {
                 value={profile.full_name}
                 onChange={(e) => setProfile({ ...profile, full_name: e.target.value })}
                 className="w-full px-4 py-3 rounded-lg border-2 border-gray-200 focus:border-pink-400 focus:outline-none transition-colors"
+                placeholder="Enter your full name"
               />
             </div>
 
@@ -192,6 +193,7 @@ export default function EditProfilePage() {
                 value={profile.username}
                 onChange={(e) => setProfile({ ...profile, username: e.target.value })}
                 className="w-full px-4 py-3 rounded-lg border-2 border-gray-200 focus:border-pink-400 focus:outline-none transition-colors"
+                placeholder="Enter your username"
               />
             </div>
 
